@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+  /* outline: 3px solid red; */
+
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1596px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    min-height: 204px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav {
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+    margin-left: 150px;
+    list-style: none;
+}
+
+.nav li a {
+    display: block;
+    color: #274c5b;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s;
+
+}
+
+.controlers {
+    display: flex;
+    gap: 18px;
+}
+
+.search, .cart {
+    position: relative;
+    max-width: 200px;
+}
+
+.search input {
+    position: absolute;
+}
+.container h2 {
+font-family: "Roboto", sans-serif;
+font-weight: 800;
+font-size: 70px;
+color: #274c5b;
+}
+.search img {
+    position: absolute;
+    right: 0;
+}
+.controlers .cart {
+border: 1px solid #e0e0e0;
+border-radius: 33px;
+width: 159px;
+display: flex;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+.controlers .cart input {
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-size: 18px;
+color: #274c5b;
+border: none;
+background-color: #ffffff;
+}
+.shop {
+    min-height: 405px;
+    background-image: url(./shop-pictures/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shop h2 {
+    text-align: center;
+    padding-top: 184px;
+}
+
+.item {
+    background-color: #f9f8f8;
+    border-radius: 30px;
+    max-width: 335px;
+    width: 100%;
+    height: 483px;
+}
+.search input {
+border-radius: 36px;
+width: 376px;
+height: 66px;
+background: #fafafa;
+border: none;
+position: absolute;
+left: -370px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    justify-content: center;
+    margin-top: 90px;
+}
+.item h3,
+.offcart h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #274c5b;
+  border-bottom: 1px #dedddd;
+  position: relative;
+  bottom: 28px;
+  left: 27px;
+}
+.s1 {
+  color: #b8b8b8;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Open Sans;
+  text-decoration: line-through;
+}
+.s1 + span {
+  color: #274c5b;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Open Sans;
+}
+.cartText {
+  display: flex;
+  flex-direction: row;
+  width: 279px;
+  height: 31px;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+  bottom: 25px;
+}
+.offcart {
+    width: 335px;
+    height: 483px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-top: 187px;
+    margin-right: 18px;
+  }
+  .offcart img {
+    margin-top: 35px;
+  }
+  .offerCarts {
+    display: flex;
+    flex-direction: row;
+    margin-left: 260px;
+    margin-top: 60px;
+  }
+  .item img {
+    height: 324px;
+    margin-top: 35px;
+}
+.cart h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Roboto;
+    color: #274c5b;
+    border-bottom: 1px #dedddd;
+    position: relative;
+    bottom: 28px;
+    left: 27px;
+}
+.cartText {
+    display: flex;
+    flex-direction: row;
+    width: 279px;
+    height: 31px;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    bottom: 25px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.checked {
+    color: orange;
+}
+* {
+    box-sizing: border-box;
+    /* outline: 3px solid red; */
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+.fa-star:before {
+    content: "\f005";
+}
+.p {
+    background-color: #274c5b;
+    border-radius: 8px;
+    width: 96px;
+    height: 31px;
+    position: relative;
+    top: 30px;
+    left: 26px;
+}
+.p p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: 600;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 6px;
+}
+.newsLatter {
+    max-width: 1400px;
+    height: 323px;
+    background-image: url("./shop-pictures/newsLatter.png");
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 220px;
+    margin-top: 140px;
+  }
+  .newsText h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+  }
+  .input input {
+    border-radius: 16px;
+    border: none;
+    width: 349px;
+    height: 80px;
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ababab;
+    text-align: center;
+  }
+  .input {
+    width: 575px;
+    height: 80px;
+  }
+  .input button {
+    border-radius: 16px;
+    padding: 28px 47px 29px 47px;
+    width: 220px;
+    height: 80px;
+    background: #274c5b;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+  }
+  .footer {
+    max-width: 1920px;
+    height: 492px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    border-bottom: 1px solid #d4d4d4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+  }
+  .spans span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.654;
+    text-align: center;
+    color: #525c60;
+  }
+  .spans span + span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.654;
+    text-align: center;
+    color: #525c60;
+  }
+  .spans {
+    text-align: center;
+  }
+  .footer .contactUs {
+    width: 290px;
+    height: 370px;
+    text-align: end;
+    margin-right: 51px;
+    border-right: 1px solid #d4d4d4;
+  }
+  .aboutUsfoot {
+    width: 543px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logof {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+  }
+  .aboutUsfoot p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 30px; */
+    line-height: 1.654;
+    text-align: center;
+    color: #525c60;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 285px;
+    height: 60px;
+  }
+  .logof h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #274c5b;
+  }
+  .UtilityPages {
+    width: 285px;
+    height: 370px;
+    margin-left: 51px;
+    text-align: start;
+    border-left: 1px solid #d4d4d4;
+    padding-left: 51px;
+  }
+  .footer .contactUs h2,
+  .UtilityPages > h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #274c5b;
+    padding-right: 51px;
+  }
+  .footer .contactUs h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 30px; */
+    line-height: 1.65;
+    text-align: right;
+    color: #525c60;
+    padding-right: 51px;
+  }
+  
+  .footer .contactUs p,
+  .UtilityPages > p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 30px; */
+    line-height: 1.65;
+    color: #525c60;
+    font-weight: 400;
+    padding-right: 51px;
+  }
+  
+  @media (hover : hover ) {
+    .input button:hover {
+        opacity: 0.9;
+    }
+    .item:hover {
+        transition: all .5s;
+        transform: scale(1.08);
+    }
+    .nav li a:hover {
+        color: #7eb693;
+        transform: scale(1.1);
+    }
+  }

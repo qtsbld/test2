@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+  /* outline: 3px solid red; */
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+  max-width: 1596px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  min-height: 204px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav {
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+  margin-left: 150px;
+  list-style: none;
+}
+
+.nav li a,
+.but1 {
+  color: #274c5b;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.controlers {
+  display: flex;
+  gap: 18px;
+}
+
+.search,
+.cart {
+  position: relative;
+  max-width: 200px;
+}
+
+.search input {
+  position: absolute;
+}
+.container h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  color: #274c5b;
+  margin: 20px;
+}
+.search img {
+  position: absolute;
+  right: 0;
+}
+.controlers .cart {
+  border: 1px solid #e0e0e0;
+  border-radius: 33px;
+  width: 159px;
+  display: flex;
+}
+.contentInfo h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #274c5b;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.controlers .cart input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #274c5b;
+  border: none;
+  background-color: #ffffff;
+}
+.search input {
+  border-radius: 36px;
+  width: 376px;
+  height: 66px;
+  background: #fafafa;
+  border: none;
+  position: absolute;
+  left: -370px;
+}
+.blogBanner {
+  min-height: 405px;
+  background-image: url(./blogPictures/blogBanner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blogBanner h2 {
+  text-align: center;
+  padding-top: 184px;
+}
+.pics {
+    max-width: 1400px;
+    height: 1867px;
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+  }
+  .headingInfo {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .headingText h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #274c5b;
+    width: 702px;
+    height: 118px;
+  }
+  .headingInfo button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274c5b;
+    margin-top: 150px;
+    border: 2px solid #274c5b;
+    border-radius: 16px;
+    padding: 28px 45px 29px 45px;
+    width: 220px;
+    height: 80px;
+  }
+  .headingInfo .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .cartInfo {
+    border-radius: 31px 34px 30px 30px;
+    padding: 46px 57px 60px 57px;
+    width: 613px;
+    height: 330px;
+    box-shadow: 0 20px 35px 0 rgba(167, 167, 167, 0.25);
+    background: #fff;
+    margin-top: 140px;
+    margin-left: 32px;
+  }
+  .date p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #274c5b;
+    position: relative;
+    bottom: 35px;
+  }
+  .date {
+    border-radius: 100%;
+    background-color: #fff;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    margin-left: 32px;
+    margin-top: 43px;
+  }
+  .cartInfo span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #274c5b;
+  }
+  .cartInfo h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #274c5b;
+    margin-left: 0px;
+  }
+  .cartInfo h2 + p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 30px; */
+    color: #525c60;
+  }
+  .button button {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #274c5b;
+    width: 220px;
+    height: 79px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    border: none;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .salad, .tomatoes,.blog3, .blog4, .blog5, .blog6 {
+    width: 677px;
+    height: 524px;
+    border-radius: 30px;
+  }
+  .tomatoes {
+    background-image: url(./blogPictures/tomatoes.png);
+  }
+  .salad {
+    background-image: url(./blogPictures/salad.png);
+  }
+  .blog3 {
+    background-image: url(./blogPictures/blog3.png);
+  }
+  .blog4 {
+    background-image: url(./blogPictures/blog4.png);
+  }
+  .blog5 {
+    background-image: url(./blogPictures/blog5.png);
+  }
+  .blog6 {
+    background-image: url(./blogPictures/blog6.png);
+  }
+  .newsLatter {
+    max-width: 1400px;
+    height: 323px;
+    background-image: url("../pictures/newsLatter.png");
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 220px;
+    margin-top: 120px;
+  }
+  .newsText h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+  }
+  .input input {
+    border-radius: 16px;
+    border: none;
+    width: 349px;
+    height: 80px;
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ababab;
+    text-align: center;
+  }
+  .input {
+    width: 575px;
+    height: 80px;
+  }
+  .input button {
+    border-radius: 16px;
+    padding: 28px 47px 29px 47px;
+    width: 220px;
+    height: 80px;
+    background: #274c5b;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+  }
+  .footer {
+    max-width: 1920px;
+    height: 492px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    border-bottom: 1px solid #d4d4d4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+  }
+  .spans span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.654;
+    text-align: center;
+    color: #525c60;
+  }
+  .spans span + span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.654;
+    text-align: center;
+    color: #525c60;
+  }
+  .spans {
+    text-align: center;
+  }
+  .footer .contactUs {
+    width: 290px;
+    height: 370px;
+    text-align: end;
+    margin-right: 51px;
+    border-right: 1px solid #d4d4d4;
+  }
+  .aboutUsfoot {
+    width: 543px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logof {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+  }
+  .aboutUsfoot p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 30px; */
+    line-height: 1.654;
+    text-align: center;
+    color: #525c60;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 285px;
+    height: 60px;
+  }
+  .logof h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #274c5b;
+  }
+  .UtilityPages {
+    width: 285px;
+    height: 370px;
+    margin-left: 51px;
+    text-align: start;
+    border-left: 1px solid #d4d4d4;
+    padding-left: 51px;
+  }
+  .footer .contactUs h2,
+  .UtilityPages > h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #274c5b;
+    padding-right: 51px;
+  }
+  .footer .contactUs h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 30px; */
+    line-height: 1.65;
+    text-align: right;
+    color: #525c60;
+    padding-right: 51px;
+  }
+  
+  .footer .contactUs p,
+  .UtilityPages > p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 30px; */
+    line-height: 1.65;
+    color: #525c60;
+    font-weight: 400;
+    padding-right: 51px;
+  }
+  
